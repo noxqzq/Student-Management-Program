@@ -1,0 +1,12 @@
+--------------Student Info--------------
+Full Name | AGE | PROGRAM | GPA 
+--- --- ------- ----
+SAD 100 CCP     0.00
+asd 11  CPD     1.00
+SAD 12  CCP     4.00
+dsa 55  MMP     20.00
+
+
+Full Name,AGE,PROGRAM,GPA
+SAD,100,CCP,0.00
+asd,11,CPD
