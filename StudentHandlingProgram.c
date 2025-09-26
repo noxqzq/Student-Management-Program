@@ -2,18 +2,6 @@
 #include <stdlib.h>
 #include "studentfunctions.h"
 
-typedef struct Node
-{
-    int data;
-    Node* next;
-} Node;
-
-
-typedef struct LinkedList {
-    Node* first;
-    int size;
-} LinkedList;
-
 int main() {
     int studentsNum;
     char choice;
@@ -46,3 +34,4 @@ int main() {
 
     return 0;
 }
+
