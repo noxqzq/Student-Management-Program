@@ -152,7 +152,7 @@ When ```borger()``` ends, ```borger``` disappears automatically.
 
 - **Size:** Much larger than the stack.
 
-👉 Example:
+Example:
 ```c
 Student** studentsInput = (Student**)malloc(sizeof(Student)); // stored in heap
 ```
