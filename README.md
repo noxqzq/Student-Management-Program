@@ -161,7 +161,8 @@ This memory stays until you explicitly free(studentsInput).
 ####  What is ```malloc()```? What does it do?
 
 ```malloc()``` is a function in C that dynamically allocates a specified amount of bytes in memory.
-In this program ```malloc()``` allocates each student 112 bytes + padding which is ~120 bytes of memory. The padding comes from the ```sizeof``` function. It gets the size of a variable in bytes.
+In this program ```malloc()``` allocates each student 112 bytes + padding which is ~120 bytes of memory. The padding comes from the ```sizeof``` function. It gets the size of a variable in bytes. It includes padding to ensure proper memory alignment for member access and for correct array allocation.
+
 ```c
 typedef struct Student {
     char fullName[50]; // 50 bytes
@@ -174,7 +175,7 @@ typedef struct Student {
 
 If you write:
 ```
-Student studentsInput;
+Student studentsInput s;
 ```
 
 The compiler reserves memory for ```s``` at compile time (before the program runs).
